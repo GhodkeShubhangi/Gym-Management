@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class Scheduling</title>
+    <link rel="stylesheet" href="classes.css">
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <div class="logo">
+                <h1>Fit n Fine</h1>
+            </div>
+            <ul>
+                <li><a href="dashboard.html">HOME</a></li>
+                <li><a id="trains" href="trainers.html">TRAINER</a></li>
+                <li><a id="members" href="members.html">MEMBER</a></li>
+                <li><a id="classes" href="payments.html">PAYMENTS</a></li>
+                <li><a id="connects" href="connect.html">CONNECT US</a></li>
+                <li><button id="mainBtn">JOIN</button></li>
+            </ul>
+        </nav>
+        <h1>Class Scheduling</h1>
+        <form class="schedule-form" id="scheduleForm">
+            <label for="class-name">Class Name:</label>
+            <select id="class-name" name="class-name" required>
+                <option value="">Select a class</option>
+                <option value="Yoga">Yoga</option>
+                <option value="Spin Class">Spin Class</option>
+                <option value="Pilates">Pilates</option>
+                <option value="Zumba">Zumba</option>
+            </select>
+
+            <label for="date">Date:</label>
+            <input type="date" id="date" name="date" required>
+
+            <label for="time">Time:</label>
+            <input type="time" id="time" name="time" required>
+
+            <button type="submit">Schedule Class</button>
+        </form>
+
+        <p id="confirmation-message" style="color: green;"></p> <!-- Message displayed here -->
+    </div>
+
+    <script src="classes.js"></script>
+</body>
+</html>

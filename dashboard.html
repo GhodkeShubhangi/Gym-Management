@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gym Web</title>
+    <link rel="stylesheet" href="dashboard.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap" rel="stylesheet">
+</head>
+<style>
+    .main {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 20px;
+    }
+    .mainText {
+        max-width: 50%;
+    }
+    
+</style>
+<body>
+    <div class="container">
+        <nav>
+            <div class="logo">
+                <h1>Fit n Fine</h1>
+            </div>
+            <ul>
+                <li><a href="dashboard.html">HOME</a></li>
+                <li><a id="trains" href="trainers.html">TRAINER</a></li>
+                <li><a id="members" href="members.html">MEMBER</a></li>
+                <li><a id="classes" href="classes.html">CLASSES</a></li>
+                <li><a id="connects" href="payments.html">PAYMENTS</a></li>
+                <li><a id="connects" href="connect.html">CONNECT US</a></li>
+                <li><a href="logout.html">Logout</a></li>
+                <li><button id="mainBtn">JOIN</button></li> <!-- Join button -->
+            </ul>
+        </nav>
+
+        <div class="join" id="joinForm">
+            <input type="text" placeholder="Enter Name" id="names"><br>
+            <input type="number" placeholder="Enter Number" id="number"><br>
+            <button id="mainbtn">JOIN</button> <!-- Submit button -->
+        </div>
+
+        <div class="main">
+            <div class="mainText">
+                <h1>Let's Take the First Step</h1>
+                <h2>30% Off on Membership</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.<br> Amet accusamus consectetur cumque consequatur tempore exercitationem.</p>
+                <button class="startBtn">Let's Start</button>
+            </div>
+            <img src="img/man.avif" alt="Man exercising at the gym" class="mainImg">
+        </div>
+
+        <div class="footer">
+            <div class="text">
+                <h2>About Us</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est magni ex quas quae qui.</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="dashboard.js"></script> <!-- Link to JavaScript file -->
+</body>
+</html>

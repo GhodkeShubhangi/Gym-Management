@@ -1,0 +1,124 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: rgb(1, 1, 17);;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Navigation Styles */
+nav {
+    background-color: rgb(2, 2, 39);;
+    color: white;
+    padding: 15px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+nav .logo h1 {
+    font-size: 24px;
+    margin-left: 20px;
+}
+
+#mainBtn {
+    padding: 10px 20px;
+    background-color: #ff5722;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#mainBtn:hover {
+    background-color: #e64a19;
+}
+
+/* Form Styles */
+.schedule-form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 30px;
+    max-width: 500px;
+}
+
+.schedule-form label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.schedule-form select,
+.schedule-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.schedule-form button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.schedule-form button:hover {
+    background-color: #218838;
+}
+
+/* Confirmation message */
+#confirmation-message {
+    margin-top: 20px;
+    font-size: 18px;
+    color: green;
+    text-align: center;
+}
+
+h1{
+    color: azure;
+}

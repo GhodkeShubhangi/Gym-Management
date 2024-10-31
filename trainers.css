@@ -1,0 +1,147 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(1, 1, 17);
+    color: white;
+}
+
+/* Navigation Styles */
+nav {
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(1, 1, 17);
+    box-shadow: 0px 2px 6px 2px rgb(29, 27, 27);
+    padding: 20px 40px; /* Increased padding inside the nav */
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+nav h1 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 5px 10px;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #ff5722;
+    border-radius: 5px;
+}
+
+/* Trainer Section */
+.crd {
+    text-align: center;
+    padding: 40px 0;
+}
+
+.head h1 {
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.head span {
+    color: #ff5722;
+}
+
+/* Trainer Cards */
+.train {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    width: 300px;
+    margin: 20px;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.trainText {
+    padding: 20px;
+}
+
+.trainText h2 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.trainText p {
+    font-size: 16px;
+    color: #777;
+    margin-bottom: 15px;
+}
+
+.trainText a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.trainText a:hover {
+    background-color: #218838;
+}
+
+/* Table Styles (If Needed) */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+table th, table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+table th {
+    background-color: #333;
+    color: white;
+}
